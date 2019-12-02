@@ -4,11 +4,13 @@ Simple UIBarButtonItem with badge support
 ![alt text](https://github.com/yasinturkdogan/YTPasswordField/blob/master/YTPasswordField/screenshot.png "")
 
 
-# Installation
-```
-pod 'YTBarButtonItemWithBadge', '~> 0.1'
-```
-or copy YTBarButtonItemWithBadge.swift to your project 
+## Installation
+
+Add this to your project using Swift Package Manager. In Xcode that is simply: File > Swift Packages > Add Package Dependency... and you're done. Alternative installations options are shown below for legacy projects.
+
+### CocoaPods
+
+If you are already using [CocoaPods](http://cocoapods.org), just add 'YTBarButtonItemWithBadge' to your `Podfile` then run `pod install`.
 
 # Usage
 ```

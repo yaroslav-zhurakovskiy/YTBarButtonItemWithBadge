@@ -8,6 +8,7 @@
 
 
 import Foundation
+import UIKit
 
 public typealias SimpleHandler = (() -> ());
 
@@ -68,7 +69,7 @@ public class YTBarButtonItemWithBadge {
     
     public func setHandler(callback:@escaping SimpleHandler) {
         if(button.actions(forTarget: self, forControlEvent: .touchUpInside) == nil) {
-            button.addTarget(self, action: #selector(onClick), for: UIControlEvents.touchUpInside);
+            button.addTarget(self, action: #selector(onClick), for: UIControl.Event.touchUpInside);
         }
         self.callback = callback;
     }
