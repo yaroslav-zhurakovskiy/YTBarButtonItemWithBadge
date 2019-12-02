@@ -12,17 +12,6 @@ Add this to your project using Swift Package Manager. In Xcode that is simply: F
 
 If you are already using [CocoaPods](http://cocoapods.org), just add 'YTBarButtonItemWithBadge' to your `Podfile` then run `pod install`.
 
-### Carthage
-
-If you are already using [Carthage](https://github.com/Carthage/Carthage), just add to your `Cartfile`:
-
-```ogdl
-github "fulldecent/YTBarButtonItemWithBadge" ~> 0.1
-```
-
-Then run `carthage update` to build the framework and drag the built `YTBarButtonItemWithBadge`.framework into your Xcode project.
-
-
 # Usage
 ```
 func viewDidLoad() {
